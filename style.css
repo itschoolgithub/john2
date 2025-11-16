@@ -311,4 +311,29 @@ body {
     display: block;
 }
 
+@media screen and (max-width: 720px) {
+    .works__img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .works__caption {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .works__container {
+        width: calc(100% - 30px * 2);
+    }
+
+    .works__item {
+        flex-direction: column;
+    }
+
+    .works__img {
+        width: 100%;
+    }
+}
+
 /* works */
