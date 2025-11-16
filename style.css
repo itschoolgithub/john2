@@ -250,6 +250,7 @@ body {
 .works__info {
     display: flex;
     gap: 26px;
+    margin-bottom: 22px;
 }
 
 .works__title {
@@ -264,10 +265,6 @@ body {
     font-weight: 700;
     color: #21243D;
     margin-bottom: 16px;
-}
-
-.works__info {
-    margin-bottom: 22px;
 }
 
 .works__year, .works__label {
@@ -286,6 +283,9 @@ body {
 
 .works__label {
     background-color: #FF6464;
+    position: absolute;
+    top: 7px;
+    left: 6px;
 }
 
 .works__category {
@@ -297,6 +297,10 @@ body {
 .works__text {
     font-size: 16px;
     color: #21243D;
+}
+
+.works__image {
+    position: relative;
 }
 
 .works__img {
